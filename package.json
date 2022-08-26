@@ -1,0 +1,21 @@
+{
+  "name": "cypress_tivix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ulisses Costa",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "5.5.0",
+    "cypress-cucumber-preprocessor": "4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "@types/cypress-cucumber-preprocessor": "^4.0.1"
+  }
+}
